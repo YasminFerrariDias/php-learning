@@ -1,0 +1,59 @@
+<!-- Formulário HTML de entrada de dados para geração da folha de pagamento, envia para folhapagamento.php. -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folha de Pagamento</title>
+</head>
+<body>
+    <form action="folhapagamento.php" method="post">
+        <table border="1" align="center">
+            <tr>
+                <th colspan="2">Folha de Pagamento</th>
+            </tr>
+            <tr>
+                <th>Nome do funcionário:</th>
+                <th><input type="text" name="nome" required></th>
+            </tr>
+            <tr>
+                <th>Qual o salário bruto:</th>
+                <th><input type="number" name="sal" step="0.01" required></th>
+            </tr>
+            <tr>
+                <th>Quantos meses trabalha na empresa:</th>
+                <th><input type="number" name="mes" required></th>
+            </tr>
+            <tr>
+                <th colspan="2"><input type="submit" name="bt" value="GERAR RELATÓRIO" class="bt"></th>
+            </tr>
+        </table>
+        <br>
+    </form>
+    <style type="text/css">
+        body {
+            background-color: pink;
+            margin-top: 200px;
+            color: white;
+        }
+
+        table {
+            background-color: lightskyblue;
+            padding: 10px;
+        }
+
+        input {
+            color: white;
+        }
+        
+        .bt {
+            background-color: pink;
+            border-color: white;
+        }
+
+        th {
+            padding: 10px;
+        }
+    </style>
+</body>
+</html>
