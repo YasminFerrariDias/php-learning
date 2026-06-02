@@ -1,4 +1,4 @@
-# PHP Exercises
+# PHP Learning
 
 Exercícios desenvolvidos no ensino médio durante os primeiros contatos com desenvolvimento web back-end em PHP.
 
