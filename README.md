@@ -1,4 +1,4 @@
-# PHP Learning
+# PHP Exercises
 
 Exercícios desenvolvidos no ensino médio durante os primeiros contatos com desenvolvimento web back-end em PHP.
 
@@ -20,3 +20,5 @@ Exercícios desenvolvidos no ensino médio durante os primeiros contatos com des
 - Estruturas condicionais e cálculos
 - Simulações financeiras
 - Sessões PHP
+- Efeitos visuais com CSS hover
+- Sistema de autenticação de usuários com cadastro, login e busca
